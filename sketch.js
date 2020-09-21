@@ -31,7 +31,7 @@ function setup()
        ball=Bodies.circle(500,100,20,ball_options);
     World.add(world,ball);
     console.log(ball);
-    
+    }
 function draw()
 {
     background("black");
